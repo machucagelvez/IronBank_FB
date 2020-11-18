@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transferencia"
+    android:orientation="vertical"
+    android:background="#E8000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btncerrarsesion_tr"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Cerrar Sesión"
+            android:textAllCaps="false"
+            android:layout_gravity="right"
+            android:backgroundTint="#8C7608"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#8C7608"
+            android:text="MÓDULO DE TRANSFERENCIAS"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="Saldo:"
+            android:textColor="#8C7608"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etsaldo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColorHint="#81794E"
+            android:textColor="#81794E"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Cuenta destino:"
+            android:textColor="#8C7608"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etcuentadest"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColorHint="#81794E"
+            android:textColor="#81794E"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Valor a transferir:"
+            android:textColor="#8C7608"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etvalor"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColorHint="#81794E"
+            android:textColor="#81794E"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textColor="#8C7608"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etfecha"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColorHint="#81794E"
+            android:textColor="#81794E"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Hora:"
+            android:textColor="#8C7608"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/ethora"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColorHint="#81794E"
+            android:textColor="#81794E"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btntransferir"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Transferir"
+            android:textAllCaps="false"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="#8C7608"/>
+
+        <Button
+            android:id="@+id/btnregresar_tr"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Regresar"
+            android:textAllCaps="false"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#8C7608"/>
+
+    </LinearLayout>
+
+</LinearLayout>

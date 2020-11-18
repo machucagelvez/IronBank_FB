@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035470981718",
+    "firebase_url": "https://ironbank-ca4a1.firebaseio.com",
+    "project_id": "ironbank-ca4a1",
+    "storage_bucket": "ironbank-ca4a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035470981718:android:a8a051c4384b14554c49f7",
+        "android_client_info": {
+          "package_name": "com.example.ironbank_fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035470981718-og62sq8sb8cprdqu8rradc7ntqr496ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYFal-umNNNDWtbFh3ompznf4lAzI8bHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035470981718-og62sq8sb8cprdqu8rradc7ntqr496ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

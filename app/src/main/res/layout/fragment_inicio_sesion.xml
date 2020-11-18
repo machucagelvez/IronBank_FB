@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioSesionFragment"
+    android:orientation="vertical"
+    android:background="#E8000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Iron Bank of Braavos"
+        android:textColor="#8C7608"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textColor="#8C7608"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etusuario"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="Ingrese su usuario"
+        android:textColorHint="#81794E"
+        android:textColor="#81794E"
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="#8C7608"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etcontrasena"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:hint="Ingrese su contraseña"
+        android:textColor="#81794E"
+        android:textColorHint="#81794E"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"/>
+
+    <Button
+        android:id="@+id/btniniciarsesion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#8C7608"
+        android:text="Iniciar sesión"
+        android:textAllCaps="false" />
+
+</LinearLayout>
